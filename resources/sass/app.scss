@@ -1,10 +1,17 @@
 //
 @use "bootstrap";
 
+$dc-primary: #0282F9;
+$dc-banner-bg: #1C1C1C;
+$dc-footer-bg: #303030;
+$dc-text-dark: #797979;
+$dc-text-white: #FFFFF2;
+
 .btn-outline-pimary{
-    border: 1px solid blue;
-    color: white;
+    border: 1px solid $dc-primary;
+    color: $dc-text-white;
     background-color: transparent;
+    padding: 0.5rem 1rem;
 }
 
 .container{
@@ -16,7 +23,7 @@ header {
     .header_top{
         a{
             text-decoration: none;
-            color: white;
+            color: $dc-text-white;
         }
     }
     nav {
@@ -28,21 +35,21 @@ header {
         .link_nav {
             width: 100%;
             a {
-                color: black;
+                color: $dc-banner-bg;
                 font-weight: bold;
                 font-size: 0.8rem;
                 height: 100%;
             }
 
             .active {
-                border-bottom: 1px solid blue;
+                border-bottom: 1px solid $dc-primary;
             }
 
             .search {
                 border-top: none;
                 border-right: none;
                 border-left: none;
-                border-bottom: 2px solid blue;
+                border-bottom: 2px solid $dc-primary;
                 text-align: right;
             }
         }
@@ -52,9 +59,10 @@ header {
 
 
 main {
+    background-color: $dc-banner-bg;
     a{
         text-decoration: none;
-        color: white;
+        color: $dc-text-white;
     }
 
     .figures{
@@ -78,8 +86,8 @@ main {
         position: absolute;
         top: -25px;
         left: -20px;
-        background-color: blue;
-        color: white;
+        background-color: $dc-primary;
+        color: $dc-text-white;
         padding: 0.5rem 1rem;
         border: none;
         text-transform: uppercase;
@@ -91,8 +99,8 @@ main {
         left: 50%;
         font-size: 1.2rem;
         transform: translate(-50%, -50%);
-        background-color: blue;
-        color: white;
+        background-color: $dc-primary;
+        color: $dc-text-white;
         text-transform: uppercase;
         border: none;
         padding: 0.5rem 1rem;
@@ -113,8 +121,8 @@ main {
     z-index: 1;
 
     .content {
-        background-color: cornflowerblue;
-        color: white;
+        background-color: cornflower$dc-primary;
+        color: $dc-text-white;
 
         .container {
             padding: 3rem 0;
@@ -122,10 +130,10 @@ main {
     }
 
     .items {
-        background-color: blue;
-        color: white;
+        background-color: $dc-primary;
+        color: $dc-text-white;
         a{
-            color: white;
+            color: $dc-text-white;
             text-decoration: none;
         }
 
@@ -168,12 +176,12 @@ footer {
         }
 
         li {
-            color: grey;
+            color: $dc-text-dark;
             list-style: none;
         }
 
         .title_utyls {
-            color: white;
+            color: $dc-text-white;
             margin-bottom: 1rem;
         }
 
@@ -193,7 +201,7 @@ footer {
         position: relative;
         z-index: 1;
         padding: 2rem 0;
-        background-color: rgb(92, 92, 92);
+        background-color: $dc-footer-bg;
 
         .container {
             display: flex;
@@ -201,12 +209,15 @@ footer {
             height: 100%;
 
             .title_follow_us {
-                color: blue;
+                color: $dc-primary;
             }
 
             .follow_us {
                 display: flex;
                 align-items: center;
+                a{
+                    text-decoration: none;
+                }
 
                 .icon_follows {
                     img {

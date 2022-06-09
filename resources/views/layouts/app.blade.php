@@ -156,7 +156,21 @@
                 <div class="follow_us">
                     <h5 class="title_follow_us">FOLLOWS US</h5>
                     <div class="icon_follows">
-
+                        <a href="#">
+                            <img src="{{ asset('img/footer-facebook.png')}}" alt="facebook icon">
+                        </a>
+                        <a href="#">
+                            <img src="{{ asset('img/footer-twitter.png')}}" alt="twitter icon">
+                        </a>
+                        <a href="#">
+                            <img src="{{ asset('img/footer-youtube.png')}}" alt="youtube icon">
+                        </a>
+                        <a href="#">
+                            <img src="{{ asset('img/footer-pinterest.png')}}" alt="pinterest icon">
+                        </a>
+                        <a href="#">
+                            <img src="{{ asset('img/footer-periscope.png')}}" alt="periscope icon">
+                        </a>
                     </div>
                 </div>
             </div>

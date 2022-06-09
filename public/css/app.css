@@ -12174,9 +12174,10 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-pimary {
-  border: 1px solid blue;
-  color: white;
+  border: 1px solid #0282F9;
+  color: #FFFFF2;
   background-color: transparent;
+  padding: 0.5rem 1rem;
 }
 
 .container {
@@ -12185,7 +12186,7 @@ fieldset:disabled .btn {
 
 header .header_top a {
   text-decoration: none;
-  color: white;
+  color: #FFFFF2;
 }
 
 header nav {
@@ -12201,32 +12202,33 @@ header nav .link_nav {
 }
 
 header nav .link_nav a {
-  color: black;
+  color: #1C1C1C;
   font-weight: bold;
   font-size: 0.8rem;
   height: 100%;
 }
 
 header nav .link_nav .active {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #0282F9;
 }
 
 header nav .link_nav .search {
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0282F9;
   text-align: right;
 }
 
 main {
+  background-color: #1C1C1C;
   position: relative;
   z-index: 1;
 }
 
 main a {
   text-decoration: none;
-  color: white;
+  color: #FFFFF2;
 }
 
 main .figures {
@@ -12253,8 +12255,8 @@ main .btn_main_top {
   position: absolute;
   top: -25px;
   left: -20px;
-  background-color: blue;
-  color: white;
+  background-color: #0282F9;
+  color: #FFFFF2;
   padding: 0.5rem 1rem;
   border: none;
   text-transform: uppercase;
@@ -12266,8 +12268,8 @@ main .btn_main_bottom {
   left: 50%;
   font-size: 1.2rem;
   transform: translate(-50%, -50%);
-  background-color: blue;
-  color: white;
+  background-color: #0282F9;
+  color: #FFFFF2;
   text-transform: uppercase;
   border: none;
   padding: 0.5rem 1rem;
@@ -12285,8 +12287,8 @@ main .main_jumbo {
 }
 
 main .content {
-  background-color: cornflowerblue;
-  color: white;
+  background-color: cornflower #0282F9;
+  color: #FFFFF2;
 }
 
 main .content .container {
@@ -12294,12 +12296,12 @@ main .content .container {
 }
 
 main .items {
-  background-color: blue;
-  color: white;
+  background-color: #0282F9;
+  color: #FFFFF2;
 }
 
 main .items a {
-  color: white;
+  color: #FFFFF2;
   text-decoration: none;
 }
 
@@ -12340,12 +12342,12 @@ footer .utyls ul {
 }
 
 footer .utyls li {
-  color: grey;
+  color: #797979;
   list-style: none;
 }
 
 footer .utyls .title_utyls {
-  color: white;
+  color: #FFFFF2;
   margin-bottom: 1rem;
 }
 
@@ -12364,7 +12366,7 @@ footer .follows {
   position: relative;
   z-index: 1;
   padding: 2rem 0;
-  background-color: rgb(92, 92, 92);
+  background-color: #303030;
 }
 
 footer .follows .container {
@@ -12374,12 +12376,16 @@ footer .follows .container {
 }
 
 footer .follows .container .title_follow_us {
-  color: blue;
+  color: #0282F9;
 }
 
 footer .follows .container .follow_us {
   display: flex;
   align-items: center;
+}
+
+footer .follows .container .follow_us a {
+  text-decoration: none;
 }
 
 footer .follows .container .follow_us .icon_follows img {
