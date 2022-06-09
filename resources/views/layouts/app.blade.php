@@ -42,8 +42,8 @@
                         </a>
                     </div>
                     <ul class="link_nav nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="{{route('characters')}}">CHARACTERS</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{route('characters')}}">CHARACTERS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">COMICS</a>

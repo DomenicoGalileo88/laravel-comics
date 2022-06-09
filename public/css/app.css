@@ -12193,6 +12193,10 @@ header nav {
   padding: 1rem 0;
 }
 
+header nav ul {
+  height: 100%;
+}
+
 header nav input:focus-visible {
   outline: none;
 }
