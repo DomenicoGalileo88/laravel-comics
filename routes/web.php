@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
+
+Route::get('/characters', function () {
+    return view('characters');
+})-> name('characters');
+
+Route::get('/app', function () {
+    $comics = config('db.comics');
+    return view('app', compact('comics'));
+})->name('app');
+
