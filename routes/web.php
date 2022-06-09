@@ -28,7 +28,12 @@ Route::get('/home', function () {
 
 
 Route::get('/characters', function () {
-    return view('characters');
+    $comics = config('db.comics');
+    $comics_utyls = config('db.comics_utyls');
+    $shop_utyls = config('db.shop_utyls');
+    $dc_utyls = config('db.dc_utyls');
+    $sites_utyls = config('db.sites_utyls');
+    return view('characters', compact('comics', 'comics_utyls', 'shop_utyls', 'dc_utyls', 'sites_utyls'));
 })-> name('characters');
 
 Route::get('/app', function () {

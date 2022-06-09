@@ -37,13 +37,13 @@
             <div class="container">
                 <nav class="d-flex align-items-center justify-content-between">
                     <div class="logo">
-                        <a href="#">
+                        <a href="{{route('home')}}">
                             <img src="{{asset('img/dc-logo.png')}}" alt="logo">
                         </a>
                     </div>
                     <ul class="link_nav nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">CHARACTERS</a>
+                            <a class="nav-link active" href="{{route('characters')}}">CHARACTERS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">COMICS</a>
@@ -99,9 +99,9 @@
                     <div class="col-2 py-4">
                         <ul>
                             <h5 class="title_utyls">DC COMICS</h5>
-                            @foreach($comics_utyls as $comic)
+                            @foreach($comics_utyls as $utyl)
                             <li>
-                                {{$comic['link']}}
+                                {{$utyl['link']}}
                             </li>
                             @endforeach
                         </ul>
