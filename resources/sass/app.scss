@@ -1,2 +1,219 @@
 //
-@use 'bootstrap';
+@use "bootstrap";
+
+.btn-outline-pimary{
+    border: 1px solid blue;
+    color: white;
+    background-color: transparent;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+
+header {
+    .header_top{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    nav {
+        padding: 1rem 0;
+
+        input:focus-visible {
+            outline: none;
+        }
+        .link_nav {
+            width: 100%;
+            a {
+                color: black;
+                font-weight: bold;
+                font-size: 0.8rem;
+                height: 100%;
+            }
+
+            .active {
+                border-bottom: 1px solid blue;
+            }
+
+            .search {
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                border-bottom: 2px solid blue;
+                text-align: right;
+            }
+        }
+    }
+}
+
+
+
+main {
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .figures{
+    text-align: center;
+    margin-bottom: 0.5rem;
+      img{
+          aspect-ratio: 1/1;
+          height: 170px;
+          object-fit: cover;
+          object-position: top;
+        }
+
+        .title_figure{
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+      }
+
+    .btn_main_top {
+        font-size: 1.5rem;
+        position: absolute;
+        top: -25px;
+        left: -20px;
+        background-color: blue;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    .btn_main_bottom {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        font-size: 1.2rem;
+        transform: translate(-50%, -50%);
+        background-color: blue;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+
+    .col_2 {
+        width: calc(100% / 12) * 2;
+    }
+
+    .main_jumbo {
+        height: 400px;
+        background-image: url("../img/jumbotron.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    position: relative;
+    z-index: 1;
+
+    .content {
+        background-color: cornflowerblue;
+        color: white;
+
+        .container {
+            padding: 3rem 0;
+        }
+    }
+
+    .items {
+        background-color: blue;
+        color: white;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        img {
+            height: 60px;
+        }
+
+        .container {
+            padding: 3rem 3rem;
+
+            .img_item {
+                display: flex;
+                align-items: center;
+
+                .title_item {
+                    margin-left: 0.7rem;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+.site_footer{
+    background: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    .utyls {
+        position: relative;
+
+        .col-6 {
+            justify-content: flex-end;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        li {
+            color: grey;
+            list-style: none;
+        }
+
+        .title_utyls {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .logo_big {
+            display: flex;
+            align-items: center;
+
+            img {
+                position: absolute;
+                bottom: - 80px;
+                z-index: 0;
+            }
+        }
+    }
+
+    .follows {
+        position: relative;
+        z-index: 1;
+        padding: 2rem 0;
+        background-color: rgb(92, 92, 92);
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+
+            .title_follow_us {
+                color: blue;
+            }
+
+            .follow_us {
+                display: flex;
+                align-items: center;
+
+                .icon_follows {
+                    img {
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

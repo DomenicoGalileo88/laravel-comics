@@ -12173,3 +12173,216 @@ fieldset:disabled .btn {
   }
 }
 
+.btn-outline-pimary {
+  border: 1px solid blue;
+  color: white;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header .header_top a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav {
+  padding: 1rem 0;
+}
+
+header nav input:focus-visible {
+  outline: none;
+}
+
+header nav .link_nav {
+  width: 100%;
+}
+
+header nav .link_nav a {
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  height: 100%;
+}
+
+header nav .link_nav .active {
+  border-bottom: 1px solid blue;
+}
+
+header nav .link_nav .search {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid blue;
+  text-align: right;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+main .figures {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+main .figures img {
+  aspect-ratio: 1/1;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .figures .title_figure {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+main .btn_main_top {
+  font-size: 1.5rem;
+  position: absolute;
+  top: -25px;
+  left: -20px;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+main .btn_main_bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  font-size: 1.2rem;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+main .col_2 {
+  width: 16.6666666667%;
+}
+
+main .main_jumbo {
+  height: 400px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .content {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+main .content .container {
+  padding: 3rem 0;
+}
+
+main .items {
+  background-color: blue;
+  color: white;
+}
+
+main .items a {
+  color: white;
+  text-decoration: none;
+}
+
+main .items img {
+  height: 60px;
+}
+
+main .items .container {
+  padding: 3rem 3rem;
+}
+
+main .items .container .img_item {
+  display: flex;
+  align-items: center;
+}
+
+main .items .container .img_item .title_item {
+  margin-left: 0.7rem;
+  font-size: 0.9rem;
+}
+
+.site_footer {
+  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .utyls {
+  position: relative;
+}
+
+footer .utyls .col-6 {
+  justify-content: flex-end;
+}
+
+footer .utyls ul {
+  padding-left: 0;
+}
+
+footer .utyls li {
+  color: grey;
+  list-style: none;
+}
+
+footer .utyls .title_utyls {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+footer .utyls .logo_big {
+  display: flex;
+  align-items: center;
+}
+
+footer .utyls .logo_big img {
+  position: absolute;
+  bottom: -80px;
+  z-index: 0;
+}
+
+footer .follows {
+  position: relative;
+  z-index: 1;
+  padding: 2rem 0;
+  background-color: rgb(92, 92, 92);
+}
+
+footer .follows .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+footer .follows .container .title_follow_us {
+  color: blue;
+}
+
+footer .follows .container .follow_us {
+  display: flex;
+  align-items: center;
+}
+
+footer .follows .container .follow_us .icon_follows img {
+  margin-left: 1rem;
+}
+
