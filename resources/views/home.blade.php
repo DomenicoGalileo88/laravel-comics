@@ -1,87 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-
-<div class="main_jumbo"></div>
-<section class="content">
-    <div class="container position-relative">
-        <button class="btn_main_top">current series</button>
-        <button class="btn_main_bottom">load more</button>
-        <div class="row mb-4">
-            @forelse($comics as $comic)
-            <div class="col_2">
-                <a href="#">
-                    <div class="figures">
-                        <img src="{{$comic['thumb']}}" alt="figure series">
-                        <div class="title_figure mt-2">{{$comic['title']}}</div>
-                    </div>
-                </a>
-            </div>
-            @empty
-            <div class="col_2">
-                <p>Not figure to show</p>
-            </div>
-            @endforelse
+    <div class="p-5 bg-primary text-white">
+        <div class="container">
+            <h1 class="display-3">Home</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam quaerat nisi fugit autem nesciunt ipsum velit magnam, magni similique doloribus, eligendi facilis amet odio earum, corporis tenetur accusantium adipisci molestias. Sequi, hic. Amet suscipit quo dolore dolores quia expedita pariatur possimus facilis commodi officiis perspiciatis atque, minima ipsum magnam totam ducimus voluptatibus earum. Laboriosam inventore repudiandae tenetur explicabo nam ipsa hic, facilis quisquam nihil earum porro nobis! Consectetur magnam explicabo nihil, deserunt iusto nam ex quidem fugit doloremque dolores. Amet nihil natus reprehenderit nisi eius reiciendis non ut, veniam deserunt dicta deleniti vitae consectetur ea, sit, maiores sunt excepturi provident assumenda? Ipsum hic similique voluptas expedita ducimus quo repudiandae fugiat saepe ex, distinctio corrupti debitis, perspiciatis laborum iste nemo sit deserunt voluptatibus iure iusto minus ea illo dolore dolorum. Ducimus delectus, quo cumque dicta dolores commodi. Tempora, laboriosam. Quod eius ullam delectus cumque dolorem fuga quasi, dicta voluptas voluptatum quis sunt ipsam quisquam pariatur sint exercitationem praesentium mollitia fugit quos vitae reprehenderit ut natus officiis. Laboriosam repellat mollitia quaerat fugiat, magnam ipsa doloribus quis quo! Accusantium iste expedita architecto dolor totam, culpa magni et quidem. Ut soluta aperiam inventore accusamus maiores nobis blanditiis asperiores quam ullam vero nisi, saepe aspernatur explicabo dignissimos deleniti? Quia laudantium a magnam eligendi, sit quas quis vel alias libero neque incidunt corrupti esse hic. Corrupti nulla quia laboriosam rerum, beatae voluptate eveniet iure fuga saepe porro. Quam dolore mollitia pariatur in enim illo ab fugiat suscipit officia ipsa, repellendus quaerat asperiores excepturi dicta veniam esse error eius laboriosam. Minus suscipit inventore, tempore doloribus illum quos alias repellat consequuntur, id eos fuga soluta iure exercitationem quia. Harum repellat quis nulla quam voluptates. Veniam at fuga debitis officiis facere animi laudantium explicabo hic est ex atque, sapiente, tempora voluptatem vitae, consequatur exercitationem perferendis iste. Natus, accusantium.</p>
         </div>
     </div>
-</section>
-<!-- /.content -->
-
-<div class="items">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a href="#">
-                    <div class="img_item">
-                        <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="digital comics" />
-                        <div class="title_item">DIGITAL COMICS</div>
-                    </div>
-                    <!-- /.img-item -->
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <div class="img_item">
-                        <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="digital comics" />
-                        <div class="title_item">DC MERCHANDISE</div>
-                    </div>
-                    <!-- /.img-item -->
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <div class="img_item">
-                        <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="digital comics" />
-                        <div class="title_item">SUBSCRIPTION</div>
-                    </div>
-                    <!-- /.img-item -->
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <div class="img_item">
-                        <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="digital comics" />
-                        <div class="title_item">COMIC SHOP LOCATOR</div>
-                    </div>
-                    <!-- /.img-item -->
-                </a>
-            </div>
-            <div class="col">
-                <a href="#">
-                    <div class="img_item">
-                        <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="digital comics" />
-                        <div class="title_item">DC POWER VISA</div>
-                    </div>
-                    <!-- /.img-item -->
-                </a>
-            </div>
-
-
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</div>
-<!-- /.items -->
-
 @endsection
