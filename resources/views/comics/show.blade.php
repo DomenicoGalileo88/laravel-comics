@@ -38,7 +38,7 @@
 
             <div class="right_side">
                 <h3>advertisement</h3>
-                <img src="{{ asset('img/adv.jpg')}}" alt="">
+                <img src="{{ asset('img/apply.jpg') }}" alt="">
             </div>
         </div>
         <!-- /.comic-description -->
@@ -98,23 +98,23 @@
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-5 d-flex justify-content-center align-item-center ">
                 <div class="col d-flex p-2 justify-content-between align-item-center gap-4 text-secondary fw-bold border border-top-0 border-3">
                     <span class="align-self-center">DIGITAL COMICS</span>
-                    <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
+                    <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
                 </div>
                 <div class="col d-flex p-2 justify-content-between align-item-center  gap-4 text-secondary fw-bold  border border-top-0 border-3">
                     <span class="align-self-center">DC MERCHANDISE</span>
-                    <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
+                    <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
                 </div>
                 <div class="col d-flex p-2 justify-content-between align-item-center gap-4  text-secondary fw-bold  border border-top-0 border-3">
                     <span class="align-self-center">SUBSCRIPTION</span>
-                    <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
+                    <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
                 </div>
                 <div class="col d-flex p-2 justify-content-between align-item-center gap-4  text-secondary fw-bold  border border-top-0 border-3">
                     <span class="align-self-center">COMIC SHOP LOCATOR</span>
-                    <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
+                    <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
                 </div>
                 <div class="col d-flex p-2 justify-content-between align-item-center gap-4  text-secondary fw-bold border border-top-0 border-3">
                     <span class="align-self-center">DC POWER VISA</span>
-                    <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
+                    <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="">
                 </div>
             </div>
         </div>

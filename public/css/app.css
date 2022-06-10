@@ -10455,7 +10455,7 @@ main .show-comic .main-content .talent_specs .left_side {
 main .show-comic .main-content .talent_specs .left_side div {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 22px 0;
   border-bottom: 1px solid lightgrey;
 }
 main .show-comic .main-content .talent_specs .left_side div h5 {
