@@ -8,12 +8,12 @@
         <button class="btn_main_top">current series</button>
         <button class="btn_main_bottom">load more</button>
         <div class="row mb-4">
-            @forelse($comics as $comic)
+            @forelse($comics as $index => $comic)
             <div class="col_2">
-                <a href="#">
+                <a href="{{route('comics.show', $index)}}">
                     <div class="figures">
                         <img src="{{$comic['thumb']}}" alt="figure series">
-                        <div class="title_figure mt-2">{{$comic['title']}}</div>
+                        <div class="title_figure mt-2">{{$comic['series']}}</div>
                     </div>
                 </a>
             </div>
