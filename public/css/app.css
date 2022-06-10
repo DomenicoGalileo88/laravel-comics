@@ -10229,15 +10229,15 @@ textarea.form-control-lg {
   }
 }
 .btn-outline-pimary {
-  border: 1px solid #0282F9;
-  color: #FFFFF2;
+  border: 1px solid #0282f9;
+  color: #fffff2;
   background-color: transparent;
   padding: 0.5rem 1rem;
 }
 
 header .header_top a {
   text-decoration: none;
-  color: #FFFFF2;
+  color: #fffff2;
 }
 header nav {
   padding: 1rem 0;
@@ -10252,30 +10252,30 @@ header nav .link_nav {
   width: 100%;
 }
 header nav .link_nav a {
-  color: #1C1C1C;
+  color: #1c1c1c;
   font-weight: bold;
   font-size: 0.8rem;
   height: 100%;
 }
 header nav .link_nav .active {
-  border-bottom: 1px solid #0282F9;
+  border-bottom: 1px solid #0282f9;
 }
 header nav .link_nav .search {
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 2px solid #0282F9;
+  border-bottom: 2px solid #0282f9;
   text-align: right;
 }
 
 main {
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   position: relative;
   z-index: 1;
 }
 main a {
   text-decoration: none;
-  color: #FFFFF2;
+  color: #fffff2;
 }
 main .figures {
   text-align: center;
@@ -10298,8 +10298,8 @@ main .btn_main_top {
   position: absolute;
   top: -25px;
   left: -20px;
-  background-color: #0282F9;
-  color: #FFFFF2;
+  background-color: #0282f9;
+  color: #fffff2;
   padding: 0.5rem 1rem;
   border: none;
   text-transform: uppercase;
@@ -10310,8 +10310,8 @@ main .btn_main_bottom {
   left: 50%;
   font-size: 1.2rem;
   transform: translate(-50%, -50%);
-  background-color: #0282F9;
-  color: #FFFFF2;
+  background-color: #0282f9;
+  color: #fffff2;
   text-transform: uppercase;
   border: none;
   padding: 0.5rem 1rem;
@@ -10320,24 +10320,24 @@ main .col_2 {
   width: 16.6666666667%;
 }
 main .main_jumbo {
-  height: 400px;
+  height: 500px;
   background-image: url("../img/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 main .content {
-  background-color: cornflower #0282F9;
-  color: #FFFFF2;
+  background-color: cornflower #0282f9;
+  color: #fffff2;
 }
 main .content .container {
   padding: 3rem 0;
 }
 main .items {
-  background-color: #0282F9;
-  color: #FFFFF2;
+  background-color: #0282f9;
+  color: #fffff2;
 }
 main .items a {
-  color: #FFFFF2;
+  color: #fffff2;
   text-decoration: none;
 }
 main .items img {
@@ -10353,6 +10353,142 @@ main .items .container .img_item {
 main .items .container .img_item .title_item {
   margin-left: 0.7rem;
   font-size: 0.9rem;
+}
+main .show-comic {
+  min-width: 918px;
+}
+main .show-comic .jumbotron {
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .show-comic .divider_blue {
+  position: relative;
+  height: 80px;
+  background-color: #0282f9;
+}
+main .show-comic .divider_blue .figure {
+  position: relative;
+  bottom: 310px;
+  left: 175px;
+  border: 1px solid white;
+}
+main .show-comic .divider_blue .figure .type, main .show-comic .divider_blue .figure .view-gallery {
+  padding: 0.2rem 0.6rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0282f9;
+}
+main .show-comic .divider_blue .figure .view-gallery {
+  text-align: center;
+}
+main .show-comic .main-content {
+  background-color: white;
+}
+main .show-comic .main-content .comic-description {
+  display: flex;
+  padding: 50px 175px 0;
+}
+main .show-comic .main-content .comic-description .left_side {
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+main .show-comic .main-content .comic-description .left_side h2 {
+  color: #00417e;
+  padding-top: 1.5rem;
+}
+main .show-comic .main-content .comic-description .left_side .availability {
+  display: flex;
+  background-color: rgba(56, 204, 40, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 0.5px solid black;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+main .show-comic .main-content .comic-description .left_side .availability .status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5px;
+}
+main .show-comic .main-content .comic-description .left_side .availability .status p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+main .show-comic .main-content .comic-description .left_side .availability .check {
+  padding: 5px;
+  border-left: 0.5px solid black;
+  cursor: pointer;
+}
+main .show-comic .main-content .comic-description .left_side .availability .check p {
+  font-weight: 600;
+}
+main .show-comic .main-content .comic-description .right_side h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: right;
+}
+main .show-comic .main-content .talent_specs {
+  display: flex;
+  padding: 0 175px 50px;
+  background-color: #f6f6f6;
+}
+main .show-comic .main-content .talent_specs h2 {
+  padding: 50px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .show-comic .main-content .talent_specs a {
+  color: #0282f9;
+  text-decoration: none;
+}
+main .show-comic .main-content .talent_specs p {
+  text-align: end;
+}
+main .show-comic .main-content .talent_specs .left_side {
+  flex-basis: 50%;
+  padding-right: 7.5px;
+}
+main .show-comic .main-content .talent_specs .left_side div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .show-comic .main-content .talent_specs .left_side div h5 {
+  flex-basis: 110px;
+}
+main .show-comic .main-content .talent_specs .left_side div p {
+  flex-basis: calc(100% - 110px);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+main .show-comic .main-content .talent_specs .right_side {
+  flex-basis: 50%;
+  padding-left: 7.5px;
+}
+main .show-comic .main-content .talent_specs .right_side div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .show-comic .main-content .talent_specs .right_side div h5 {
+  flex-basis: 150px;
+}
+main .show-comic .main-content .talent_specs .right_side div p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .show-comic .shop_banner {
+  background-color: #f6f6f6;
+}
+main .show-comic .shop_banner img {
+  filter: brightness(0.8);
+  max-width: 40px;
 }
 
 .site_footer {
@@ -10375,7 +10511,7 @@ footer .utyls li {
   list-style: none;
 }
 footer .utyls .title_utyls {
-  color: #FFFFF2;
+  color: #fffff2;
   margin-bottom: 1rem;
 }
 footer .utyls .logo_big {
@@ -10399,7 +10535,7 @@ footer .follows .container {
   height: 100%;
 }
 footer .follows .container .title_follow_us {
-  color: #0282F9;
+  color: #0282f9;
 }
 footer .follows .container .follow_us {
   display: flex;

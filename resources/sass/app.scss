@@ -1,30 +1,29 @@
 //
 @use "bootstrap";
 
-$dc-primary: #0282F9;
-$dc-banner-bg: #1C1C1C;
+$dc-primary: #0282f9;
+$dc-banner-bg: #1c1c1c;
 $dc-footer-bg: #303030;
 $dc-text-dark: #797979;
-$dc-text-white: #FFFFF2;
+$dc-text-white: #fffff2;
 
-.btn-outline-pimary{
+.btn-outline-pimary {
     border: 1px solid $dc-primary;
     color: $dc-text-white;
     background-color: transparent;
     padding: 0.5rem 1rem;
 }
 
-
 header {
-    .header_top{
-        a{
+    .header_top {
+        a {
             text-decoration: none;
             color: $dc-text-white;
         }
     }
     nav {
         padding: 1rem 0;
-        ul{
+        ul {
             height: 100%;
         }
 
@@ -55,30 +54,28 @@ header {
     }
 }
 
-
-
 main {
     background-color: $dc-banner-bg;
-    a{
+    a {
         text-decoration: none;
         color: $dc-text-white;
     }
 
-    .figures{
-    text-align: center;
-    margin-bottom: 0.5rem;
-      img{
-          aspect-ratio: 1/1;
-          height: 170px;
-          object-fit: cover;
-          object-position: top;
+    .figures {
+        text-align: center;
+        margin-bottom: 0.5rem;
+        img {
+            aspect-ratio: 1/1;
+            height: 170px;
+            object-fit: cover;
+            object-position: top;
         }
 
-        .title_figure{
+        .title_figure {
             text-transform: uppercase;
             font-size: 0.8rem;
         }
-      }
+    }
 
     .btn_main_top {
         font-size: 1.5rem;
@@ -110,7 +107,7 @@ main {
     }
 
     .main_jumbo {
-        height: 400px;
+        height: 500px;
         background-image: url("../img/jumbotron.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -131,7 +128,7 @@ main {
     .items {
         background-color: $dc-primary;
         color: $dc-text-white;
-        a{
+        a {
             color: $dc-text-white;
             text-decoration: none;
         }
@@ -154,10 +151,170 @@ main {
             }
         }
     }
+
+    .show-comic {
+        min-width: 918px;
+        .jumbotron {
+            height: 400px;
+            background-image: url("../images/jumbotron.jpg");
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .divider_blue {
+            position: relative;
+            height: 80px;
+            background-color: $dc-primary;
+
+            .figure {
+                position: relative;
+                bottom: 310px;
+                left: 175px;
+                border: 1px solid white;
+
+                .type, .view-gallery {
+                    padding: 0.2rem 0.6rem;
+                    text-transform: uppercase;
+                    color: white;
+                    background-color: $dc-primary;
+                }
+
+                .view-gallery {
+                    text-align: center;
+                }
+            }
+        }
+
+        .main-content {
+            background-color: white;
+            .comic-description {
+                display: flex;
+                padding: 50px 175px 0;
+
+                .left_side {
+                    padding-right: 25px;
+                    padding-bottom: 25px;
+
+                    h2 {
+                        color:  #00417e;
+                        padding-top: 1.5rem;
+                    }
+                    .availability {
+                        display: flex;
+                        background-color: rgba(56, 204, 40, 0.8);
+                        color: rgba(255, 255, 255, 0.8);
+                        border-bottom: 0.5px solid black;
+                        justify-content: space-between;
+                        margin: 15px 0;
+
+                        .status {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-grow: 1;
+                            padding: 5px;
+                            p {
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                margin: 0;
+                            }
+                        }
+                        .check {
+                            padding: 5px;
+                            border-left: 0.5px solid black;
+                            cursor: pointer;
+                            p {
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .right_side {
+                    h3 {
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        text-align: right;
+                    }
+                }
+            }
+
+            .talent_specs {
+                display: flex;
+                padding: 0 175px 50px;
+
+                background-color: #f6f6f6;
+
+                h2 {
+                    padding: 50px 0;
+                    border-bottom: 1px solid lightgrey;
+                }
+
+                a {
+                    color: $dc-primary;
+                    text-decoration: none;
+                }
+
+                p {
+                    text-align: end;
+                }
+
+                .left_side {
+                    flex-basis: calc(100% / 2);
+                    padding-right: 7.5px;
+                    div {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 20px 0;
+                        border-bottom: 1px solid lightgrey;
+
+                        h5 {
+                            flex-basis: 110px;
+                        }
+
+                        p {
+                            flex-basis: calc(100% - 110px);
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .right_side {
+                    flex-basis: calc(100% / 2);
+                    padding-left: 7.5px;
+
+                    div {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 20px 0;
+
+                        border-bottom: 1px solid lightgrey;
+
+                        h5 {
+                            flex-basis: 150px;
+                        }
+
+                        p {
+                            text-transform: uppercase;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+        .shop_banner {
+            background-color: #f6f6f6;
+            img {
+                filter: brightness(0.8);
+                max-width: 40px;
+            }
+        }
+    }
 }
 
-.site_footer{
-    background: url('../img/footer-bg.jpg');
+.site_footer {
+    background: url("../img/footer-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -190,7 +347,7 @@ footer {
 
             img {
                 position: absolute;
-                bottom: - 80px;
+                bottom: -80px;
                 z-index: 0;
             }
         }
@@ -214,7 +371,7 @@ footer {
             .follow_us {
                 display: flex;
                 align-items: center;
-                a{
+                a {
                     text-decoration: none;
                 }
 
