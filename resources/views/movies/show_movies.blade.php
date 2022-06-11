@@ -64,6 +64,6 @@
     <!-- /.shop_banner -->
 
 </div>
-<!--/.show-comic -->
+<!--/.show-movies -->
 
 @endsection

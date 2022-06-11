@@ -10356,7 +10356,7 @@ main .items .container .img_item .title_item {
 }
 main .show-movies #jumbotron img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
