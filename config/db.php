@@ -87,6 +87,45 @@ return [
         ],
     ],
 
+    'movies' => [
+        [
+            'title' => 'Wonder Woman 1984 (2020)',
+            'bg_image' => 'https://www.dccomics.com/sites/default/files/Movies-Gallery_WW84_05_5e4f3d2424ca61.78478943.jpg',
+            'img' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/movie-covers/2020/12/Movies-Thumb_WW84_HelmetArt_5fca9741c15786.50981449.jpg?itok=uOId2E-P',
+            'description' => 'Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.
+
+With director Patty Jenkins back at the helm and Gal Gadot returning in the title role, Wonder Woman 1984 is Warner Bros. Pictures’ follow up to the DC Super Hero’s first outing, 2017’s record-breaking Wonder Woman, which took in $822 million at the worldwide box office. The film also stars Chris Pine as Steve Trevor, Kristen Wiig as The Cheetah, Pedro Pascal as Max Lord, Robin Wright as Antiope and Connie Nielsen as Hippolyta.
+
+Charles Roven, Deborah Snyder, Zack Snyder, Patty Jenkins, Gal Gadot and Stephen Jones are producing the film. Rebecca Steel Roven Oakley, Richard Suckle, Marianne Jenkins, Geoff Johns, Walter Hamada, Chantal Nong Vo and Wesley Coller are the executive producers.
+
+Patty Jenkins directed from a screenplay she wrote with Geoff Johns & David Callaham, story by Jenkins & Johns, based on characters from DC. Joining the director behind the scenes are several members of her Wonder Woman team, including director of photography Matthew Jensen, Oscar-nominated production designer Aline Bonetto (Amélie), and Oscar-winning costume designer Lindy Hemming (Topsy-Turvy). Oscar-nominated editor Richard Pearson (United 93) is cutting the film. The music is by Oscar-winning composer Hans Zimmer (Dunkirk, The Lion King).
+
+Warner Bros. Pictures Presents an Atlas Entertainment/Stone Quarry Production, a Patty Jenkins Film, Wonder Woman 1984. ',
+        ],
+        [
+            'title' => 'Birds of Prey (2020)',
+            'bg_image' => 'https://www.dccomics.com/sites/default/files/Movies-Gallery_BoP_01_5df1aea454ddc5.25066467.jpg',
+            'img' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/movie-covers/2019/12/Movies-Thumb_BoP__5df1b6165d38c7.32399605.jpg?itok=GDxnx3Rp',
+            'description' => '"You ever hear the one about the cop, the songbird, the psycho and the mafia princess?"
+
+Birds of Prey (And the Fantabulous Emancipation of One Harley Quinn) is a twisted tale told by Harley herself, as only Harley can tell it. When Gotham’s most nefariously narcissistic villain, Roman Sionis, and his zealous right-hand, Zsasz, put a target on a young girl named Cass, the city is turned upside down looking for her. Harley, Huntress, Black Canary and Renee Montoya’s paths collide, and the unlikely foursome have no choice but to team up to take Roman down.
+
+In the Warner Bros. Pictures film, Margot Robbie (I, Tonya) returns as Harley Quinn, alongside Mary Elizabeth Winstead (10 Cloverfield Lane, TV’s Fargo) as Huntress; Jurnee Smollett-Bell (HBO’s True Blood) as Black Canary; Rosie Perez (Fearless, Pitch Perfect 2) as Renee Montoya; Chris Messina (Argo, TV’s Sharp Objects) as Victor Zsasz; and Ewan McGregor (Stephen King’s Doctor Sleep, the Trainspotting films) as Roman Sionis. Newcomer Ella Jay Basco also stars as Cassandra “Cass” Cain in her feature film debut.
+
+Directed by Cathy Yan (Dead Pigs) from a script by Christina Hodson (Bumblebee), the film is based on characters from DC. Robbie also produced, alongside Bryan Unkeless and Sue Kroll. The film’s executive producers are Walter Hamada, Galen Vaisman, Geoff Johns, Hans Ritter and David Ayer.
+
+Joining Yan behind the scenes was a creative team comprised of director of photography Matthew Libatique (A Star Is Born, Venom); production designer K.K. Barrett (Her); editor Jay Cassidy (American Hustle, Silver Linings Playbook) and editor Evan Schiff (John Wick Chapters 2 & 3); and costume designer Erin Benach (A Star Is Born). The music is by Daniel Pemberton (Spider-Man: Into the Spider-Verse).
+
+Warner Bros. Pictures Presents a LuckyChap Entertainment Production, a Clubhouse Pictures Production, a Kroll & Co. Entertainment Production, Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn). Opening in theaters and IMAX nationwide on February 7, 2020, the film will be distributed by Warner Bros. Pictures.',
+        ],
+        [
+            'title' => "Zack Snyder's Justice League (2021)",
+            'bg_image' => 'https://www.dccomics.com/sites/default/files/Movies-Gallery_ZackSnyderJusticeLeague_FilmCans_603e9c8be6b933.67825270.jpg',
+            'img' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/movie-covers/2021/03/Movies-Thumb_ZackSnyderJusticeLeague_Keyart_603e9e717fed30.39358315.jpg?itok=nb91luZH',
+            'description' => "In Zack Snyder's Justice League, determined to ensure Superman’s (Henry Cavill) ultimate sacrifice was not in vain, Bruce Wayne (Ben Affleck) aligns forces with Diana Prince (Gal Gadot) with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions. The task proves more difficult than Bruce imagined, as each of the recruits must face the demons of their own pasts to transcend that which has held them back, allowing them to come together, finally forming an unprecedented league of heroes. Now united, Batman (Affleck), Wonder Woman (Gadot), Aquaman (Jason Momoa), Cyborg (Ray Fisher) and The Flash (Ezra Miller) may be too late to save the planet from Steppenwolf, DeSaad and Darkseid and their dreadful intentions.",
+        ],
+    ],
+
     'comics' => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",

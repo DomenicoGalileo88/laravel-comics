@@ -10354,52 +10354,73 @@ main .items .container .img_item .title_item {
   margin-left: 0.7rem;
   font-size: 0.9rem;
 }
-main .show-comic {
+main .show-movies #jumbotron img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main .show-comic,
+main .show-movies {
   min-width: 918px;
 }
-main .show-comic .jumbotron {
+main .show-comic .jumbotron,
+main .show-movies .jumbotron {
   height: 400px;
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-main .show-comic .divider_blue {
+main .show-comic .divider_blue,
+main .show-movies .divider_blue {
   position: relative;
   height: 80px;
   background-color: #0282f9;
 }
-main .show-comic .divider_blue .figure {
+main .show-comic .divider_blue .figure,
+main .show-movies .divider_blue .figure {
   position: relative;
   bottom: 310px;
   left: 175px;
   border: 1px solid white;
 }
-main .show-comic .divider_blue .figure .type, main .show-comic .divider_blue .figure .view-gallery {
+main .show-comic .divider_blue .figure .type,
+main .show-comic .divider_blue .figure .view-gallery,
+main .show-movies .divider_blue .figure .type,
+main .show-movies .divider_blue .figure .view-gallery {
   padding: 0.2rem 0.6rem;
   text-transform: uppercase;
   color: white;
   background-color: #0282f9;
 }
-main .show-comic .divider_blue .figure .view-gallery {
+main .show-comic .divider_blue .figure .view-gallery,
+main .show-movies .divider_blue .figure .view-gallery {
   text-align: center;
 }
-main .show-comic .main-content {
+main .show-comic .main-content,
+main .show-movies .main-content {
   background-color: white;
 }
-main .show-comic .main-content .comic-description {
+main .show-comic .main-content .comic-description,
+main .show-movies .main-content .comic-description {
   display: flex;
   padding: 50px 175px 0;
 }
-main .show-comic .main-content .comic-description .left_side {
+main .show-comic .main-content .comic-description .left_side,
+main .show-movies .main-content .comic-description .left_side {
   padding-right: 25px;
   padding-bottom: 25px;
 }
-main .show-comic .main-content .comic-description .left_side h2 {
+main .show-comic .main-content .comic-description .left_side h2,
+main .show-movies .main-content .comic-description .left_side h2 {
   color: #00417e;
   padding-top: 1.5rem;
 }
-main .show-comic .main-content .comic-description .left_side .availability {
+main .show-comic .main-content .comic-description .left_side .availability,
+main .show-movies .main-content .comic-description .left_side .availability {
   display: flex;
   background-color: rgba(56, 204, 40, 0.8);
   color: rgba(255, 255, 255, 0.8);
@@ -10407,86 +10428,105 @@ main .show-comic .main-content .comic-description .left_side .availability {
   justify-content: space-between;
   margin: 15px 0;
 }
-main .show-comic .main-content .comic-description .left_side .availability .status {
+main .show-comic .main-content .comic-description .left_side .availability .status,
+main .show-movies .main-content .comic-description .left_side .availability .status {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
   padding: 5px;
 }
-main .show-comic .main-content .comic-description .left_side .availability .status p {
+main .show-comic .main-content .comic-description .left_side .availability .status p,
+main .show-movies .main-content .comic-description .left_side .availability .status p {
   text-transform: uppercase;
   font-weight: 600;
   margin: 0;
 }
-main .show-comic .main-content .comic-description .left_side .availability .check {
+main .show-comic .main-content .comic-description .left_side .availability .check,
+main .show-movies .main-content .comic-description .left_side .availability .check {
   padding: 5px;
   border-left: 0.5px solid black;
   cursor: pointer;
 }
-main .show-comic .main-content .comic-description .left_side .availability .check p {
+main .show-comic .main-content .comic-description .left_side .availability .check p,
+main .show-movies .main-content .comic-description .left_side .availability .check p {
   font-weight: 600;
 }
-main .show-comic .main-content .comic-description .right_side h3 {
+main .show-comic .main-content .comic-description .right_side h3,
+main .show-movies .main-content .comic-description .right_side h3 {
   text-transform: uppercase;
   font-weight: 400;
   text-align: right;
 }
-main .show-comic .main-content .talent_specs {
+main .show-comic .main-content .talent_specs,
+main .show-movies .main-content .talent_specs {
   display: flex;
   padding: 0 175px 50px;
   background-color: #f6f6f6;
 }
-main .show-comic .main-content .talent_specs h2 {
+main .show-comic .main-content .talent_specs h2,
+main .show-movies .main-content .talent_specs h2 {
   padding: 50px 0;
   border-bottom: 1px solid lightgrey;
 }
-main .show-comic .main-content .talent_specs a {
+main .show-comic .main-content .talent_specs a,
+main .show-movies .main-content .talent_specs a {
   color: #0282f9;
   text-decoration: none;
 }
-main .show-comic .main-content .talent_specs p {
+main .show-comic .main-content .talent_specs p,
+main .show-movies .main-content .talent_specs p {
   text-align: end;
 }
-main .show-comic .main-content .talent_specs .left_side {
+main .show-comic .main-content .talent_specs .left_side,
+main .show-movies .main-content .talent_specs .left_side {
   flex-basis: 50%;
   padding-right: 7.5px;
 }
-main .show-comic .main-content .talent_specs .left_side div {
+main .show-comic .main-content .talent_specs .left_side div,
+main .show-movies .main-content .talent_specs .left_side div {
   display: flex;
   justify-content: space-between;
   padding: 22px 0;
   border-bottom: 1px solid lightgrey;
 }
-main .show-comic .main-content .talent_specs .left_side div h5 {
+main .show-comic .main-content .talent_specs .left_side div h5,
+main .show-movies .main-content .talent_specs .left_side div h5 {
   flex-basis: 110px;
 }
-main .show-comic .main-content .talent_specs .left_side div p {
+main .show-comic .main-content .talent_specs .left_side div p,
+main .show-movies .main-content .talent_specs .left_side div p {
   flex-basis: calc(100% - 110px);
   font-size: 0.8rem;
   font-weight: 600;
 }
-main .show-comic .main-content .talent_specs .right_side {
+main .show-comic .main-content .talent_specs .right_side,
+main .show-movies .main-content .talent_specs .right_side {
   flex-basis: 50%;
   padding-left: 7.5px;
 }
-main .show-comic .main-content .talent_specs .right_side div {
+main .show-comic .main-content .talent_specs .right_side div,
+main .show-movies .main-content .talent_specs .right_side div {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px solid lightgrey;
 }
-main .show-comic .main-content .talent_specs .right_side div h5 {
+main .show-comic .main-content .talent_specs .right_side div h5,
+main .show-movies .main-content .talent_specs .right_side div h5 {
   flex-basis: 150px;
 }
-main .show-comic .main-content .talent_specs .right_side div p {
+main .show-comic .main-content .talent_specs .right_side div p,
+main .show-movies .main-content .talent_specs .right_side div p {
   text-transform: uppercase;
   font-weight: 600;
 }
-main .show-comic .shop_banner {
+main .show-comic .shop_banner,
+main .show-movies .shop_banner {
   background-color: #f6f6f6;
 }
-main .show-comic .shop_banner img {
+main .show-comic .shop_banner img,
+main .show-movies .shop_banner img {
   filter: brightness(0.8);
   max-width: 40px;
 }

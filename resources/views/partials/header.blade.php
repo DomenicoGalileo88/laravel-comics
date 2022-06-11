@@ -29,8 +29,8 @@
                     <li class="nav-item {{ Route::currentRouteName() === 'comics.index' || Route::currentRouteName() === 'comics.show' ? 'active' : '' }}">
                         <a class="nav-link" href="{{route('comics.index')}}">COMICS</a>
                     </li>
-                    <li class="nav-item {{Route::currentRouteName() === 'movies' ? 'active' : ''}}">
-                        <a class="nav-link" href="{{route('movies')}}">MOVIES</a>
+                    <li class="nav-item {{Route::currentRouteName() === 'movies.index_movies' || Route::currentRouteName() === 'movies.show_movies' ? 'active' : ''}}">
+                        <a class="nav-link" href="{{route('movies.index_movies')}}">MOVIES</a>
                     </li>
                     <li class="nav-item {{Route::currentRouteName() === 'tv' ? 'active' : ''}}">
                         <a class="nav-link" href="{{route('tv')}}">TV</a>

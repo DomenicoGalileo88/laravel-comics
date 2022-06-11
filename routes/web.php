@@ -66,13 +66,28 @@ Route::get('/comics/{id}', function ($id) {
 })->name('comics.show');
 
 Route::get('/movies', function () {
-    $comics = config('db.comics');
+    $movies = config('db.movies');
     $comics_utyls = config('db.comics_utyls');
     $shop_utyls = config('db.shop_utyls');
     $dc_utyls = config('db.dc_utyls');
     $sites_utyls = config('db.sites_utyls');
-    return view('movies', compact('comics', 'comics_utyls', 'shop_utyls', 'dc_utyls', 'sites_utyls'));
-})->name('movies');
+    return view('movies.index_movies', compact('movies', 'comics_utyls', 'shop_utyls', 'dc_utyls', 'sites_utyls'));
+})->name('movies.index_movies');
+
+Route::get('/movies{id}', function ($id) {
+    $movies = config('db.movies');
+    $comics_utyls = config('db.comics_utyls');
+    $shop_utyls = config('db.shop_utyls');
+    $dc_utyls = config('db.dc_utyls');
+    $sites_utyls = config('db.sites_utyls');
+
+    if($id >= 0 && is_numeric($id) && $id < count($movies)){
+        $dc_movies = $movies[$id];
+        return view('movies.show_movies', compact('movies', 'comics_utyls', 'shop_utyls', 'dc_utyls', 'sites_utyls', 'dc_movies'));
+    } else {
+        abort(404);
+    }
+})->name('movies.show_movies');
 
 Route::get('/tv', function () {
     $comics = config('db.comics');
